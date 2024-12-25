@@ -87,7 +87,7 @@ function saveList() {
     for (var i = 0; i < toDoList.children.length; i++) {
         var toDo = toDoList.children.item(i);
 
-        var toDoInfo = {
+        toDoInfo = {
             "task": toDo.innerText,
             "completed": toDo.classList.contains("completed")
         };
